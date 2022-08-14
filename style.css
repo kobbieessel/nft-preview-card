@@ -20,7 +20,7 @@ body {
 }
 .card {
   width: 270px;
-  border: 1px solid var(--very-dark-blue-line);
+  background-color: var(--very-dark-blue-card-BG);
   margin: 50px auto;
   padding: 20px;
   border-radius: 15px;
@@ -37,17 +37,17 @@ body {
   font-weight: 600;
   margin: 20px 0;
 }
-.coins {
-  margin: 10px 0;
-
+.card-discription {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 20px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.coins strong {
-  color: var(--white);
-  font-weight: 600;
+.card-discription .amount-container strong {
+  color: var(--Cyan);
 }
 .attribution {
   font-size: 11px;
