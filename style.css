@@ -18,36 +18,98 @@ body {
   font-size: 16px;
   font-family: "Outfit", sans-serif;
 }
+
+/* Eth card */
 .card {
   width: 270px;
+
   background-color: var(--very-dark-blue-card-BG);
   margin: 50px auto;
   padding: 20px;
-  border-radius: 15px;
-  box-shadow: 6px 15px 10px var(--very-dark-blue-main-BG);
+  border-radius: 10px;
+  box-shadow: 8px 10px 15px hsl(216, 52%, 6%), 8px 12px 20px hsl(240, 48%, 5%);
 }
+
+/* Equilibrium image */
 .card-content #image1 {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 9px;
   margin-bottom: 10px;
 }
-#title {
+
+/* header */
+h3 {
   color: var(--white);
-  font-size: 1.2em;
+  font-size: 20px;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 5px 0 5px 0;
 }
+
+/* Equilibrium collection */
+#comment {
+  color: var(--Soft-blue);
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Equilibriumn & history */
 .card-discription {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 20px 0;
+  margin: 5px 0;
+  padding: 15px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.card-discription .amount-container strong {
+.amount-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.amount-container strong {
   color: var(--Cyan);
+  padding: 0 5px;
+}
+.date-container {
+  padding: 0 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.date-container p {
+  color: var(--Soft-blue);
+  padding: 0 5px;
+}
+
+/* Profile detail */
+.profile {
+  border-top: 1px solid var(--very-dark-blue-line);
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile img {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+.profile p {
+  font-size: 13px;
+  color: var(--white);
+  padding-right: 50px;
+  word-spacing: 1.2px;
+}
+span {
+  color: var(--Soft-blue);
 }
 .attribution {
   font-size: 11px;
