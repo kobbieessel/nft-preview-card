@@ -22,7 +22,6 @@ body {
 /* Eth card */
 .card {
   width: 270px;
-
   background-color: var(--very-dark-blue-card-BG);
   margin: 50px auto;
   padding: 20px;
@@ -37,6 +36,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .image1 img {
   width: 100%;
@@ -70,13 +71,13 @@ body {
 }
 
 /* header */
-h3 {
+.card-content h3 {
   color: var(--white);
   font-size: 20px;
   font-weight: 600;
   margin: 5px 0 5px 0;
 }
-h3:hover {
+.card-content h3:hover {
   color: var(--Cyan);
   cursor: pointer;
 }
@@ -148,7 +149,7 @@ h3:hover {
   color: var(--Cyan);
   cursor: pointer;
 }
-span {
+.profile span {
   color: var(--Soft-blue);
 }
 .attribution {
