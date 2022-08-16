@@ -33,7 +33,6 @@ body {
 /* Equilibrium image */
 .image1 {
   position: relative;
-  /* border: 1px solid red; */
   width: inherit;
   display: flex;
   justify-content: center;
@@ -67,12 +66,8 @@ body {
 }
 
 .card-content #image1 {
-  /* border-radius: 9px; */
   margin-bottom: 10px;
 }
-/* #image:hover {
-  opacity: 1;
-} */
 
 /* header */
 h3 {
