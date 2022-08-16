@@ -31,11 +31,48 @@ body {
 }
 
 /* Equilibrium image */
-.card-content #image1 {
+.image1 {
+  position: relative;
+  /* border: 1px solid red; */
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image1 img {
   width: 100%;
-  border-radius: 9px;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: inherit;
+  background-color: hsla(178, 100%, 50%, 0.514);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease-in-out;
+}
+.overlay img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+}
+.image1:hover .overlay {
+  opacity: 1;
+}
+
+.card-content #image1 {
+  /* border-radius: 9px; */
   margin-bottom: 10px;
 }
+/* #image:hover {
+  opacity: 1;
+} */
 
 /* header */
 h3 {
@@ -43,6 +80,10 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   margin: 5px 0 5px 0;
+}
+h3:hover {
+  color: var(--Cyan);
+  cursor: pointer;
 }
 
 /* Equilibrium collection */
@@ -107,6 +148,10 @@ h3 {
   color: var(--white);
   padding-right: 50px;
   word-spacing: 1.2px;
+}
+.profile > p:hover {
+  color: var(--Cyan);
+  cursor: pointer;
 }
 span {
   color: var(--Soft-blue);
