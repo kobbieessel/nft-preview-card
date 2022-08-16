@@ -13,12 +13,11 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
 
+Build out this preview card component
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -30,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/kobbieessel/nft-preview-card)
 - Live Site URL:(https://kobbieessel.github.io/nft-preview-card/)
 
 ### Built with
