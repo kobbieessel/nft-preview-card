@@ -10,7 +10,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -37,8 +36,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS
 - Flexbox
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -93,13 +90,7 @@ how to create overlay effect,how to use the position attribute and the differenc
 }
 ```
 
-### Continued development
-
 ## Author
 
-- Frontend Mentor - [@kobbieessel](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
+- Frontend Mentor - [@kobbieessel](https://www.frontendmentor.io/profile/kobbieessel)
+- Twitter - [@McselKobbie](https://www.twitter.com/McselKobbie)
